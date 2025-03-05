@@ -76,6 +76,9 @@ body {
     align-items: center;
     justify-content: center;
 }
+.logo-containerA {
+ display: none;
+}
 
 .logo-container {
     width: auto;
@@ -464,5 +467,83 @@ th, td {
     font-weight: bold;
 }
 
-@media()
-
+@media (min-width: 601px) {
+    .content-general{
+        display: flex;
+ 
+    }
+    .izquierda{
+    display: contents;
+    z-index: 2;
+    display: flex;
+    flex-direction: column-reverse; 
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    width: 400px;
+    height: 100%;
+    background-color: #0000ff;
+    gap: 20px;
+    }
+    .ingenieria-container {
+        flex-direction: none;
+        align-items: none;
+    }
+       
+    .title-container {
+        
+        background-color: var(--primary);
+        width: 288px;
+        height: 77px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 50px;
+        position: relative;
+        text-align: center;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-container h2{
+        width: 90%;
+    }
+    
+    .logos-section {
+        margin-top: 25px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-containerA { 
+     display:flex;
+     width: 250px;
+     height: 250px;
+     background-color: red;
+    }
+    .logo-containerA img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    
+    .logo-container {
+        width: auto;
+       height: auto;
+       padding-bottom: 20px;
+    }
+    
+    .logo1 {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .logo2 {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+  }
+  
