@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="ingenieria-container">
+        <section id="background-section" class="background">
+            <lfr-editable id="background-image" class="editable-image" type="image">
+                <img src="https://www.javeriana.edu.co/recursosdb/659410/668610/deparatamentos-e-institutos.jpg" 
+                     alt="Imagen de fondo" />
+            </lfr-editable>
+        </section>
+    
+        <div class="content-general">
+            <div class="izquierda">
+                <div class="title-container">
+                    <h2>
+                        <lfr-editable id="title" type="rich-text">Ingeniería de Sistemas</lfr-editable>
+                    </h2>
+                </div>
+    
+                <div class="logo-containerA">
+                    <lfr-editable id="logo-abetA" class="logoA" type="image">
+                        <img src="img/niño.jpg" alt="Imagen representativa" />
+                    </lfr-editable>
+                </div>
+            </div>
+            
+            <section class="logos-section">
+                <div class="logo-container">
+                    <lfr-editable id="logo-abet" class="logo1" type="image">
+                        <img src="img/logo1.jpg" alt="Logo ABET" />
+                    </lfr-editable>
+                </div>
+                <div class="logo-container">
+                    <lfr-editable id="logo-calidad" class="logo2" type="image">
+                        <img src="img/logo2.png" alt="Sello de Alta Calidad" />
+                    </lfr-editable>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    
+<!-- fin de la primera sección ............................................................... -->
+    <section class="info-container">
+
+        <div class="info-content">
+
+            <div class="info-text">
+                <h2 class="title">
+                    <lfr-editable id="section-title" type="rich-text">Información General</lfr-editable>
+                </h2>
+    
+                <h3>
+                    <lfr-editable id="subtitle" type="rich-text">Nuestro Programa</lfr-editable>
+                </h3>
+    
+                <p>
+                    <lfr-editable id="program-description" type="text">
+                        La Ingeniería de Sistemas es la disciplina que se ocupa de proponer, modelar, 
+                        planear, diseñar, construir, adaptar, gestionar y liderar soluciones que mejoren 
+                        la calidad de vida de las personas y las organizaciones, aprovechando al máximo 
+                        las tecnologías de información y comunicaciones.
+                    </lfr-editable>
+                </p>
+                
+                <p>
+                    <lfr-editable id="additional-info" type="text">
+                        Como Ingeniero (a) de sistemas de la Javeriana puedes crear soluciones que 
+                        aporten al desarrollo y faciliten la operatividad de las organizaciones, así 
+                        como la calidad de vida de las personas. Para ello, la Pontificia Universidad 
+                        Javeriana ofrece una formación sólida en Sistemas de Información, Ingeniería de 
+                        Software y Ciencias de la Computación, utilizando las tecnologías de información 
+                        y comunicaciones.
+                    </lfr-editable>
+                </p>
+            </div>
+                <div class="snies-container">
+                    <p>
+                        <strong>SNIES 3079</strong> 
+                        <lfr-editable id="snies-info" type="text">
+                            Registro calificado: Resolución 13945 del 15 de agosto de 2018, vigencia hasta el 12 de marzo de 2026. 
+                            Acreditación de Alta Calidad: Resolución 3985 del 12 de marzo de 2018. Duración estimada: Ocho (8) semestres.
+                        </lfr-editable>
+                    </p>
+        
+                    <ul class="program-details">
+                        <li class="detail-li">
+                            <span class="icon icon-title">
+                                <lfr-editable id="icon-title" type="html"><i class="ph-bold ph-student"></i></lfr-editable>
+                            </span>
+                            <span class="detail-text">
+                                <strong><lfr-editable id="degree-title-label" type="text">Título:&nbsp;</lfr-editable></strong>
+                                <lfr-editable id="degree-title" type="text">Ingeniero(a) de Sistemas</lfr-editable>
+                            </span>
+                        </li>
+                        
+                        <li class="detail-li">
+                            <span class="icon icon-level">
+                                <lfr-editable id="icon-level" type="html"><i class="ph-bold ph-user"></i></lfr-editable>
+                            </span>
+                            <span class="detail-text">
+                                <strong><lfr-editable id="academic-level-label" type="text">Nivel académico:&nbsp;</lfr-editable></strong>
+                                <lfr-editable id="academic-level" type="text">Pregrado</lfr-editable>
+                            </span>
+                        </li>
+                        
+                        <li class="detail-li">
+                            <span class="icon icon-modality">
+                                <lfr-editable id="icon-modality" type="html"><i class="ph-bold ph-map-pin-simple"></i></lfr-editable>
+                            </span>
+                            <span class="detail-text">
+                                <strong><lfr-editable id="modality-label" type="text">Modalidad:&nbsp;</lfr-editable></strong>
+                                <lfr-editable id="modality" type="text">Presencial</lfr-editable>
+                            </span>
+                        </li>
+                        
+                        <li class="detail-li">
+                            <span class="icon icon-schedule">
+                                <lfr-editable id="icon-schedule" type="html"><i class="ph-bold ph-clock"></i></lfr-editable>
+                            </span>
+                            <span class="detail-text">
+                                <strong><lfr-editable id="schedule-label" type="text">Horarios:&nbsp;</lfr-editable></strong>
+                                <lfr-editable id="schedule" type="text">Jornada diurna</lfr-editable>
+                            </span>
+                        </li>                       
+                        
+                        <li class="detail-li">
+                            <span class="icon icon-investment">
+                                <lfr-editable id="icon-investment" type="html">
+                                    <i class="ph-bold ph-currency-circle-dollar"></i>
+                                </lfr-editable>
+                            </span>
+                            <span class="investment-text">
+                                <strong>
+                                    <lfr-editable id="investment-label" type="text">Inversión:&nbsp;</lfr-editable>
+                                </strong>
+                                <lfr-editable id="investment" type="text">
+                                    $15.451.000 / Semestre El valor de matrícula corresponde al costo semestral fijado para el año 2023.
+                                </lfr-editable>
+                            </span>
+                        </li>
+                        
+                      </ul>                      
+
+                    </div>
+
+            <div class="contact-column">
+                <h2 class="title">
+                    <lfr-editable id="contact-title" type="rich-text">Director y Contacto</lfr-editable>
+                </h2>
+    
+                <!-- Contenedor para foto y el texto -->
+                <div class="director-info">
+                    <lfr-editable id="director-image" class="editable-image" type="image">
+                        <img src="img/foto.jpg" alt="Director de programa" />
+                    </lfr-editable>
+                    <div class="director-details">
+                        <h4><lfr-editable id="director-name" type="text">Carlos Andrés Parra Acevedo, Ph.D.</lfr-editable></h4>
+                        <p><lfr-editable id="director-role" type="text">Profesor Asistente</lfr-editable></p>
+                        <a href="#"><lfr-editable id="see-more" type="text">Ver más</lfr-editable></a>
+                    </div>
+                </div>
+    
+                <p class="contact-email">
+                    <strong>Contáctanos:</strong> 
+                    <lfr-editable id="contact-email" type="text">ingsistemas@javeriana.edu.co</lfr-editable>
+                </p>
+    
+                <button class="info-button">
+                    <lfr-editable id="info-button-text" type="text">Información y Procesos para Estudiantes</lfr-editable>
+                </button>
+    
+                <div class="accreditation-info">
+                    <p>
+                        <lfr-editable id="accreditation-text" type="text">
+                            The BS in systems engineering program is accredited by the 
+                            Engineering Accreditation Commission of ABET, <a href="http://www.abet.org">http://www.abet.org</a>
+                        </lfr-editable>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- fin de la sección información .............................................................................................................. -->
+
+<section id="background-section2" class="asignaturas-container">
+    <div class="background2">
+         <lfr-editable id="background-image2" type="image">
+        <img src="https://www.javeriana.edu.co/recursosdb/659410/668610/deparatamentos-e-institutos.jpg"alt="Imagen de fondo" class="background-image"/>
+            
+        </lfr-editable>
+    </div>
+
+
+
+    <div class="content-container">
+        <div class="plan1">
+            <h2 class="study-plan-title">
+                <lfr-editable id="study-plan-title" type="text">
+                    Plan de estudios del programa de Ingeniería de Sistemas
+                </lfr-editable>
+            </h2>
+            <p class="study-plan-item">
+                <strong><lfr-editable id="core-subjects-title" type="text">Núcleo Fundamental - 113 créditos:</lfr-editable></strong>
+                <lfr-editable id="core-subjects-desc" type="text">
+                    Asignaturas en ciencias básicas, ingeniería aplicada, proyectos de diseño en ingeniería e institucionales.
+                </lfr-editable>
+            </p>
+            <p class="study-plan-item">
+                <strong><lfr-editable id="emphasis-title" type="text">Énfasis - 11 créditos:</lfr-editable></strong>
+                <lfr-editable id="emphasis-desc" type="text">
+                    Asignaturas en las áreas de Inteligencia Artificial y Ciencia de Datos, Computación Gráfica, Seguridad Digital y Sistemas de Información.
+                </lfr-editable>
+            </p>
+            <p class="study-plan-item">
+                <strong><lfr-editable id="complementary-title" type="text">Complementarias - 6 créditos:</lfr-editable></strong>
+                <lfr-editable id="complementary-desc" type="text">
+                    Asignaturas de otras carreras tales como otras Ingenierías, Ciencia de Datos, Lenguas.
+                </lfr-editable>
+            </p>
+            <p class="study-plan-item">
+                <strong><lfr-editable id="electives-title" type="text">Electivas - 8 créditos:</lfr-editable></strong>
+                <lfr-editable id="electives-desc" type="text">
+                    Asignaturas de libre escogencia del catálogo de la Universidad. <br><br>
+                    Total créditos - 138
+                </lfr-editable>
+            </p>
+            
+            <a href="#" class="study-plan-button">
+                <lfr-editable id="study-plan-button-text" type="text">VER PLAN DE ESTUDIOS</lfr-editable>
+            </a>  
+        </div>
+        <div class="plan2">
+            <div class="plan-img">
+                <lfr-editable id="plan-img" type="image">
+               <img src="img/niño.jpg"/>
+                   
+               </lfr-editable>
+           </div>
+        </div> 
+    </div>
+</section>
+
+<!-- fin de la sección plan de estudios ............................. -->
+
+<section class="peo-section">
+    <div class="peo-container">
+        <h2 class="peo-title">
+            <lfr-editable id="peo-title" type="text">Program Educational Objectives (PEO)</lfr-editable>
+        </h2>
+        <p class="peo-description">
+            <lfr-editable id="peo-description" type="text">
+                The Systems Engineering professional from Javeriana University, after 4 years of graduation, will:
+            </lfr-editable>
+        </p>
+
+        <div class="peo-item">
+            <h3 class="peo-subtitle">
+                <lfr-editable id="peo-subtitle-1" type="text">Problem solving:</lfr-editable>
+            </h3>
+            <p class="peo-text">
+                <lfr-editable id="peo-text-1" type="text">
+                    • Practice Systems Engineering through the identification, analysis and creative solution of problems, exercising critical thinking and with a systemic perspective, and through the design, implementation and effective management of IT solutions and services, applying principles of the discipline.
+                </lfr-editable>
+            </p>
+        </div>
+
+        <div class="peo-item">
+            <h3 class="peo-subtitle">
+                <lfr-editable id="peo-subtitle-2" type="text">Collaboration:</lfr-editable>
+            </h3>
+            <p class="peo-text">
+                <lfr-editable id="peo-text-2" type="text">
+                    • Develop a professional career in which he/she puts at the service, of the groups in which he/she works, his/her communication, leadership, cooperation, autonomy, continuous learning and adaptation skills, in order to support and guide the fulfillment of common objectives.
+                </lfr-editable>
+            </p>
+        </div>
+
+        <div class="peo-item">
+            <h3 class="peo-subtitle">
+                <lfr-editable id="peo-subtitle-3" type="text">Social responsibility:</lfr-editable>
+            </h3>
+            <p class="peo-text">
+                <lfr-editable id="peo-text-3" type="text">
+                    • Obtain recognition for being an integral professional, who pursues advanced studies, who is aware of the impact that must generate in society, committed to an ethical behavior and who contributes to sustainable development with innovative and context-appropriate solutions.
+                </lfr-editable>
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- fin de la primera seccion en ingles ....................... -->
+
+<section class="student-outcomes-section">
+    <div class="container">
+        <h2 class="section-title">
+            <lfr-editable id="student-outcomes-title" type="text">Student Outcomes</lfr-editable>
+        </h2>
+
+        <ol class="outcomes-list">
+            <li><lfr-editable id="outcome-1" type="text">An ability to identify Systems engineering problems and opportunities in several contexts; establish solution alternatives and select the most appropriate, implementing it using information technology by applying knowledge of mathematics, basic sciences and Systems Engineering.</lfr-editable></li><br>
+            <li><lfr-editable id="outcome-2" type="text">An ability to design IT systems and services to solve problems and take advantage of opportunities in several contexts, to meet desired needs and constraints and consideration of economic, environmental, social, political, ethical, health and safety, as well as global factors.</lfr-editable></li><br>
+            <li><lfr-editable id="outcome-3" type="text">An ability to communicate in an assertive manner in oral and written form, using appropriate tools, with a range of audiences. Listen and reflect in order to ensure effective communication in technical and non-technical environments.</lfr-editable></li><br>
+            <li><lfr-editable id="outcome-4" type="text">An ability to recognize professional and ethical responsibility and the willingness to act accordingly. Have an attitude of service to society considering the impact of technology in a global, economic, environmental, and societal context.</lfr-editable></li><br>
+            <li><lfr-editable id="outcome-5" type="text">An ability to function effectively on a team, whose members participate in collective leadership, creating a collaborative and inclusive environment, establish goals, plan tasks, and meet objectives.</lfr-editable></li><br>
+            <li><lfr-editable id="outcome-6" type="text">An ability to design protocols to test, evaluate and manage the quality of IT systems and services, and an ability to integrate, analyze, interpret data and draw conclusions.</lfr-editable></li><br>
+            <li><lfr-editable id="outcome-7" type="text">An ability to acquire new concepts, technologies, and tools and apply them in professional development.</lfr-editable></li><br>
+        </ol>
+
+        <h2 class="section-title">
+            <lfr-editable id="statistics-title" type="text">Statistics</lfr-editable>
+        </h2>
+    </div>    
+        <div class="table-container">
+            <table class="stats-table">
+                <tr>
+                    <th><lfr-editable id="table-header-1" type="text">Semestre</lfr-editable></th>
+                    <th><lfr-editable id="table-header-2" type="text">Estudiantes</lfr-editable></th>
+                    <th><lfr-editable id="table-header-3" type="text">Estudiantes de Nuevo Ingreso (Primer Semestre)</lfr-editable></th>
+                    <th><lfr-editable id="table-header-4" type="text">Graduados</lfr-editable></th>
+                </tr>
+                <tr>
+                    <td><lfr-editable id="semester-2016-1" type="text">2016-1</lfr-editable></td>
+                    <td><lfr-editable id="students-2016-1" type="text">340</lfr-editable></td>
+                    <td><lfr-editable id="new-students-2016-1" type="text">59</lfr-editable></td>
+                    <td><lfr-editable id="graduates-2016-1" type="text">15</lfr-editable></td>
+                </tr>
+                <tr>
+                    <td><lfr-editable id="semester-2016-3" type="text">2016-3</lfr-editable></td>
+                    <td><lfr-editable id="students-2016-3" type="text">350</lfr-editable></td>
+                    <td><lfr-editable id="new-students-2016-3" type="text">49</lfr-editable></td>
+                    <td><lfr-editable id="graduates-2016-3" type="text">23</lfr-editable></td>
+                </tr>
+                <tr>
+                    <td><lfr-editable id="semester-2017-1" type="text">2017-1</lfr-editable></td>
+                    <td><lfr-editable id="students-2017-1" type="text">393</lfr-editable></td>
+                    <td><lfr-editable id="new-students-2017-1" type="text">100</lfr-editable></td>
+                    <td><lfr-editable id="graduates-2017-1" type="text">25</lfr-editable></td>
+                </tr>
+                <tr>
+                    <td><lfr-editable id="semester-2017-3" type="text">2017-3</lfr-editable></td>
+                    <td><lfr-editable id="students-2017-3" type="text">394</lfr-editable></td>
+                    <td><lfr-editable id="new-students-2017-3" type="text">42</lfr-editable></td>
+                    <td><lfr-editable id="graduates-2017-3" type="text">22</lfr-editable></td>
+                </tr>
+                <tr>
+                    <td><lfr-editable id="semester-2018-1" type="text">2018-1</lfr-editable></td>
+                    <td><lfr-editable id="students-2018-1" type="text">436</lfr-editable></td>
+                    <td><lfr-editable id="new-students-2018-1" type="text">87</lfr-editable></td>
+                    <td><lfr-editable id="graduates-2018-1" type="text">28</lfr-editable></td>
+                </tr>
+                <tr>
+                    <td><lfr-editable id="semester-2018-3" type="text">2018-3</lfr-editable></td>
+                    <td><lfr-editable id="students-2018-3" type="text">421</lfr-editable></td>
+                    <td><lfr-editable id="new-students-2018-3" type="text">41</lfr-editable></td>
+                    <td><lfr-editable id="graduates-2018-3" type="text">33</lfr-editable></td>
+                </tr>
+                <tr>
+                    <td><lfr-editable id="semester-2019-1" type="text">2019-1</lfr-editable></td>
+                    <td><lfr-editable id="students-2019-1" type="text">457</lfr-editable></td>
+                    <td><lfr-editable id="new-students-2019-1" type="text">73</lfr-editable></td>
+                    <td><lfr-editable id="graduates-2019-1" type="text">18</lfr-editable></td>
+                </tr>
+                <tr>
+                    <td><lfr-editable id="semester-2019-3" type="text">2019-3</lfr-editable></td>
+                    <td><lfr-editable id="students-2019-3" type="text">441</lfr-editable></td>
+                    <td><lfr-editable id="new-students-2019-3" type="text">42</lfr-editable></td>
+                    <td><lfr-editable id="graduates-2019-3" type="text">22</lfr-editable></td>
+                </tr>
+                <tr>
+                    <td><lfr-editable id="semester-2020-1" type="text">2020-1</lfr-editable></td>
+                    <td><lfr-editable id="students-2020-1" type="text">465</lfr-editable></td>
+                    <td><lfr-editable id="new-students-2020-1" type="text">73</lfr-editable></td>
+                    <td><lfr-editable id="graduates-2020-1" type="text">30</lfr-editable></td>
+                </tr>
+                <tr>
+                    <td><lfr-editable id="semester-2020-3" type="text">2020-3</lfr-editable></td>
+                    <td><lfr-editable id="students-2020-3" type="text">458</lfr-editable></td>
+                    <td><lfr-editable id="new-students-2020-3" type="text">47</lfr-editable></td>
+                    <td><lfr-editable id="graduates-2020-3" type="text">29</lfr-editable></td>
+                </tr>
+                <tr>
+                    <td><lfr-editable id="semester-2021-1" type="text">2021-1</lfr-editable></td>
+                    <td><lfr-editable id="students-2021-1" type="text">537</lfr-editable></td>
+                    <td><lfr-editable id="new-students-2021-1" type="text">103</lfr-editable></td>
+                    <td><lfr-editable id="graduates-2021-1" type="text">23</lfr-editable></td>
+                </tr>
+                <tr>
+                    <td><lfr-editable id="semester-2021-3" type="text">2021-3</lfr-editable></td>
+                    <td><lfr-editable id="students-2021-3" type="text">544</lfr-editable></td>
+                    <td><lfr-editable id="new-students-2021-3" type="text">79</lfr-editable></td>
+                    <td><lfr-editable id="graduates-2021-3" type="text">36</lfr-editable></td>
+                </tr>
+                <tr>
+                    <td><lfr-editable id="semester-2022-1" type="text">2022-1</lfr-editable></td>
+                    <td><lfr-editable id="students-2022-1" type="text">620</lfr-editable></td>
+                    <td><lfr-editable id="new-students-2022-1" type="text">157</lfr-editable></td>
+                    <td><lfr-editable id="graduates-2022-1" type="text">63</lfr-editable></td>
+                </tr>
+                <tr>
+                    <td><lfr-editable id="semester-2022-1" type="text">2022-3</lfr-editable></td>
+                    <td><lfr-editable id="students-2022-1" type="text">671</lfr-editable></td>
+                    <td><lfr-editable id="new-students-2022-1" type="text">101</lfr-editable></td>
+                    <td><lfr-editable id="graduates-2022-1" type="text">36</lfr-editable></td>
+                </tr>
+            </table>
+
+            <p class="footer-note">
+                <lfr-editable id="table-footer-text" type="text">Until October, 2022</lfr-editable>
+            </p>
+        </div>
+        
+   
+</section>
+
+<footer class="footer-section">
+    <div class="footer-container">
+        <p class="footer-text">
+            <lfr-editable id="footer-legal" type="text">
+                <strong>Términos Legales</strong> - Política de Privacidad
+            </lfr-editable>
+        </p>
+    </div>
+</footer>      
+
+<script>
+    window.ub.page.webFonts = [
+      "Open Sans:700",
+      "Source Sans Pro:regular,700,300,900",
+      "Raleway:500,700,regular,600,800",
+    ];
+  </script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+   
+</body>
+</html>
